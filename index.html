@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="train.css">
+    <script src="/__/firebase/init.js"></script>
+    <title>train chain</title>
+</head>
+<header>
+   <img src="http://images.capitolcorridor.org/wp-content/uploads/2016/04/Capitol_Corridor_SanJoaquin.jpg">
+</header>
+
+<body>
+<div class="table"></div>
+    <thead>
+        <th scope="col">Train Name</th>
+        <th scope="col">Destination</th>
+        <th scope="col">First Time</th>
+        <th scope="col">Frequency</th>
+    </thead>
+    <tbody id="train-table-body"></tbody>
+</div>
+<form>
+    <div class="box">
+    <div class="form-group">
+     <label for="trainName">Train Name</label>
+     <input type="text" class="form-control" id="trainName" >
+     <br>
+     <br>
+     <label for="destination">Destination</label>
+     <input type="text" class="form-control" id="destination">
+     <br>
+     <br>
+     <label for="firsTime">First Time</label>
+     <input type="time" class="form-control" id="firsTime">
+     <br>
+     <br>
+     <label for="frequency">Frequency</label>
+     <input type="number" class="form-control" id="frequency">
+     </div>
+     <br>
+     <button id="submit">Submit</button>
+    </div>
+    </form>
+
+    <script src="train.js"> </script>
+    <!-- <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+              apiKey: "AIzaSyBKoOHAha30iJ6EuzVfIMSMkKr-TiuWBc0",
+              authDomain: "traing-2147c.firebaseapp.com",
+              databaseURL: "https://traing-2147c.firebaseio.com",
+              projectId: "traing-2147c",
+              storageBucket: "",
+              messagingSenderId: "346591542335",
+              appId: "1:346591542335:web:df3e04a774001387"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+    </script>
+</body> -->
+
+</html>
